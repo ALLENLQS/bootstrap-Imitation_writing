@@ -1,0 +1,43 @@
+*{	
+	padding:0px;
+	margin:0px;
+}
+.reddot::after {
+    content: "";
+    color: #fff;
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    right: 0;
+    padding: 2px;
+    z-index: 9999999;
+    background: #d9534f;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 1;
+    border: 1px solid #d43f3a;
+}
+.font-center{	
+	font-size:60px !important; /*!important 优先级最高*/
+	color:#fff !important;
+	text-align:center;
+}
+.jumbotron{
+	background:#401D45;
+	padding-top:130px;
+	padding-bottom:80px;
+}
+.font-center2{
+	font-size:30px !important; /*!important 优先级最高*/
+	color:#fff !important;
+	text-align:center;
+
+}
+.masthead-button-links{
+	text-align:center;
+}
+.jumbotron3{
+    background:#7B57A8;
+    padding-top:130px;
+    padding-bottom:80px;
+}
